@@ -9,7 +9,7 @@ from ogr.abstract import PullRequest
 from ogr.factory import get_service_class
 from ogr.services.pagure import PagureService
 
-from downstream_release.credentials import get_token
+from roz.credentials import get_token
 
 
 logger = logging.getLogger(__name__)

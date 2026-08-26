@@ -1,7 +1,7 @@
 [project]
-name = "downstream-release"
+name = "roz"
 version = "0.1.0"
-description = "Add your description here"
+description = "Helpful assistant to help deliver goose (and friends) in pagure and gitlab."
 readme = "README.md"
 authors = [
     { name = "Rodolfo Olivieri", email = "rolivier@redhat.com" }
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [project.scripts]
-downstream-release = "downstream_release:main"
+roz = "roz:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]

@@ -2,9 +2,9 @@
 
 import argparse
 
-from downstream_release.commands import build
-from downstream_release.commands import propose
-from downstream_release.commands import update
+from roz.commands import build
+from roz.commands import propose
+from roz.commands import update
 
 
 def _build_parser() -> argparse.ArgumentParser:

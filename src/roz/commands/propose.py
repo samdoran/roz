@@ -2,7 +2,7 @@
 
 import argparse
 
-from downstream_release.workflows import WORKFLOW_MAP
+from roz.workflows import WORKFLOW_MAP
 
 
 def register(subparsers: argparse._SubParsersAction[argparse.ArgumentParser]) -> None:

@@ -4,10 +4,10 @@ import subprocess
 
 from pathlib import Path
 
-from downstream_release import forge
-from downstream_release import git
-from downstream_release import srpm
-from downstream_release.workflows.protocol import WorkflowProtocol
+from roz import forge
+from roz import git
+from roz import srpm
+from roz.workflows.protocol import WorkflowProtocol
 
 
 def _generate_vendor_tarball(repo_dir: Path) -> None:
